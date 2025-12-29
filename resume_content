@@ -1,0 +1,224 @@
+# Gokul Ramasamy
+
+**Senior Systems & Embedded Software Engineer**
+
+Embedded Systems • Distributed Systems • High-Performance Backend • AI Systems Integration
+
+---
+
+## Executive Summary
+
+Senior Systems and Embedded Software Engineer with 10+ years of experience designing and delivering performance‑critical software across embedded platforms, distributed backends, and AI‑enabled systems. Proven ability to work at the hardware–software boundary, drive architecture and design decisions, and build reliable, scalable systems under real‑world constraints such as latency, throughput, memory, and cost.
+
+**Core Strengths**
+
+* Embedded & Firmware Engineering (RTOS, Embedded Linux)
+* High‑Performance & Concurrent Systems
+* Distributed Systems & Microservices
+* AI Inference & Systems Integration (Edge + Cloud)
+* Architecture, HLD/LLD, and Engineering Documentation
+
+**Links**
+
+* GitHub: [https://github.com/](https://github.com/)<your-username>
+* LinkedIn: [https://linkedin.com/in/](https://linkedin.com/in/)<your-profile>
+* Resume (PDF): /resume.pdf
+
+---
+
+## Selected Projects
+
+> The projects below reflect production‑oriented system design, performance awareness, and engineering trade‑offs rather than academic or tutorial examples.
+
+---
+
+### 1. Real‑Time Crowd Safety & Decision Agent Platform
+
+**Domain:** AI Systems Integration • Event‑Driven Architecture • Real‑Time Analytics
+
+**Problem Statement**
+Large public events require real‑time detection of crowd risks, rapid decision‑making, and coordinated responses across multiple systems (CCTV, alerts, dashboards, announcements). Traditional manual monitoring does not scale.
+
+**Architecture Overview**
+
+* Real‑time CCTV and audio ingestion pipeline
+* Event‑driven processing using Firebase + serverless functions
+* AI analysis using LLM‑based reasoning for alert prioritization
+* Operator dashboard with live updates and recommendations
+
+**Key Design Decisions**
+
+* Event‑driven, stateless processing to handle unpredictable load
+* AI inference focused on decision support, not raw model training
+* Modular agent logic to enable future multi‑agent expansion
+
+**Implementation Highlights**
+
+* Node.js ingestion services for video/audio snapshots
+* AI‑based alert classification and prioritization
+* Real‑time dashboard using React + Firebase
+
+**Performance & Reliability Considerations**
+
+* Low‑latency alert propagation
+* Fault‑tolerant ingestion with retry and fallback logic
+* Horizontal scalability via serverless triggers
+
+**Tech Stack**
+Node.js, Firebase, React, Gemini API, Serverless Functions
+
+**Repository**
+[https://github.com/](https://github.com/)<your-username>/crowd-safety-agent
+
+---
+
+### 2. Embedded RTOS‑Based Sensor Processing Pipeline
+
+**Domain:** Embedded Systems • Real‑Time Processing
+
+**Problem Statement**
+Sensor‑driven embedded systems must process high‑frequency data streams while meeting strict timing and memory constraints.
+
+**Architecture Overview**
+
+* RTOS‑based task scheduling
+* Interrupt‑driven sensor data acquisition
+* Lock‑free ring buffers for inter‑task communication
+
+**Key Design Decisions**
+
+* Priority‑based scheduling for deterministic latency
+* Static memory allocation to avoid fragmentation
+* Minimal ISR execution to reduce jitter
+
+**Implementation Highlights**
+
+* Custom task scheduler configuration
+* Optimized buffer management
+* Timing analysis using hardware timers
+
+**Performance Metrics**
+
+* Deterministic task latency under peak load
+* Bounded memory usage
+
+**Tech Stack**
+C/C++, FreeRTOS, ARM Cortex‑M
+
+**Repository**
+[https://github.com/](https://github.com/)<your-username>/rtos-sensor-pipeline
+
+---
+
+### 3. High‑Performance Java Microservice for Event Processing
+
+**Domain:** Distributed Systems • Backend Performance
+
+**Problem Statement**
+Backend services processing high‑volume events require low latency, predictable throughput, and robust observability.
+
+**Architecture Overview**
+
+* Spring Boot–based microservice
+* Asynchronous request handling
+* Centralized logging and metrics
+
+**Key Design Decisions**
+
+* Non‑blocking I/O for improved throughput
+* Thread pool tuning based on workload characteristics
+* Clear separation of API, service, and persistence layers
+
+**Implementation Highlights**
+
+* Concurrent request processing
+* Graceful degradation under load
+* Structured logging for production debugging
+
+**Performance Metrics**
+
+* Sustained throughput under concurrent load
+* Reduced tail latency after tuning
+
+**Tech Stack**
+Java, Spring Boot, REST, Micrometer
+
+**Repository**
+[https://github.com/](https://github.com/)<your-username>/high-performance-microservice
+
+---
+
+### 4. AI Inference Pipeline for Edge‑to‑Cloud Deployment
+
+**Domain:** AI Systems • Performance Engineering
+
+**Problem Statement**
+Deploying AI inference at scale requires balancing latency, accuracy, and cost across edge and cloud environments.
+
+**Architecture Overview**
+
+* Edge inference for fast response
+* Cloud‑based aggregation and analytics
+* Configurable routing based on load
+
+**Key Design Decisions**
+
+* Inference optimization over model experimentation
+* Clear separation between inference and orchestration
+* Monitoring‑driven scaling decisions
+
+**Implementation Highlights**
+
+* Lightweight inference wrappers
+* API‑based integration with downstream systems
+
+**Performance Considerations**
+
+* Latency vs cost trade‑offs
+* Failure handling and fallback strategies
+
+**Tech Stack**
+Python/Node.js, AI APIs, Cloud Services
+
+**Repository**
+[https://github.com/](https://github.com/)<your-username>/ai-inference-pipeline
+
+---
+
+## Design Documentation
+
+A dedicated repository containing:
+
+* High‑Level Design (HLD)
+* Low‑Level Design (LLD)
+* Sequence and architecture diagrams
+* Trade‑off analysis and scalability considerations
+
+**Repository**
+[https://github.com/](https://github.com/)<your-username>/design-docs
+
+---
+
+## Engineering Philosophy
+
+* Design for clarity before optimization
+* Measure performance before tuning
+* Prefer simple, debuggable systems over clever abstractions
+* Treat documentation as a first‑class engineering artifact
+* Optimize for reliability, observability, and maintainability
+
+---
+
+## Resume
+
+A concise, one‑page resume tailored for systems, embedded, and AI‑infrastructure roles.
+
+[Download Resume PDF]
+
+---
+
+## Contact
+
+Open to senior systems, embedded, and AI‑platform roles in high‑performance engineering teams.
+
+Email: <your-email>
